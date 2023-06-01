@@ -1,0 +1,333 @@
+{
+    "@context": {
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dfc": "http://static.datafoodconsortium.org/ontologies/DFC_FullModel.owl#",
+        "dc": "http://purl.org/dc/elements/1.1/#",
+        "dfc-b": "http://static.datafoodconsortium.org/ontologies/DFC_BusinessOntology.owl#",
+        "dfc-p": "http://static.datafoodconsortium.org/ontologies/DFC_ProductOntology.owl#",
+        "dfc-t": "http://static.datafoodconsortium.org/ontologies/DFC_TechnicalOntology.owl#",
+        "dfc-m": "http://static.datafoodconsortium.org/data/measures.rdf#",
+        "dfc-pt": "http://static.datafoodconsortium.org/data/productTypes.rdf#",
+        "dfc-f": "http://static.datafoodconsortium.org/data/facets.rdf#",
+        "dfc-p:hasUnit": {
+            "@type": "@id"
+        },
+        "dfc-b:hasUnit": {
+            "@type": "@id"
+        },
+        "dfc-b:hasQuantity": {
+            "@type": "@id"
+        },
+        "dfc-p:hasType": {
+            "@type": "@id"
+        },
+        "dfc-b:hasType": {
+            "@type": "@id"
+        },
+        "dfc-b:references": {
+            "@type": "@id"
+        },
+        "dfc-b:referencedBy": {
+            "@type": "@id"
+        },
+        "dfc-b:offeres": {
+            "@type": "@id"
+        },
+        "dfc-b:supplies": {
+            "@type": "@id"
+        },
+        "dfc-b:defines": {
+            "@type": "@id"
+        },
+        "dfc-b:affiliates": {
+            "@type": "@id"
+        },
+        "dfc-b:hasCertification": {
+            "@type": "@id"
+        },
+        "dfc-b:manages": {
+            "@type": "@id"
+        },
+        "dfc-b:offeredThrough": {
+            "@type": "@id"
+        },
+        "dfc-b:hasBrand": {
+            "@type": "@id"
+        },
+        "dfc-b:hasGeographicalOrigin": {
+            "@type": "@id"
+        },
+        "dfc-b:hasClaim": {
+            "@type": "@id"
+        },
+        "dfc-b:hasAllergenDimension": {
+            "@type": "@id"
+        },
+        "dfc-b:hasNutrientDimension": {
+            "@type": "@id"
+        },
+        "dfc-b:hasPhysicalDimension": {
+            "@type": "@id"
+        },
+        "dfc:owner": {
+            "@type": "@id"
+        },
+        "dfc-t:hostedBy": {
+            "@type": "@id"
+        },
+        "dfc-t:hasPivot": {
+            "@type": "@id"
+        },
+        "dfc-t:represent": {
+            "@type": "@id"
+        }
+    },
+    "@graph": [
+        {
+            "@id": "_:b65",
+            "@type": "dfc-b:QuantitativeValue",
+            "dfc-b:hasUnit": "dfc-m:Kilogram",
+            "dfc-b:value": "1"
+        },
+        {
+            "@id": "_:b66",
+            "@type": "dfc-b:QuantitativeValue",
+            "dfc-b:hasUnit": "dfc-m:Kilogram",
+            "dfc-b:value": "1"
+        },
+        {
+            "@id": "_:b67",
+            "@type": "dfc-b:QuantitativeValue",
+            "dfc-b:hasUnit": "dfc-m:Kilogram",
+            "dfc-b:value": "1"
+        },
+        {
+            "@id": "_:b68",
+            "@type": "dfc-b:QuantitativeValue",
+            "dfc-b:hasUnit": "dfc-m:Kilogram",
+            "dfc-b:value": "1"
+        },
+        {
+            "@id": "_:b69",
+            "@type": "dfc-b:QuantitativeValue",
+            "dfc-b:hasUnit": "dfc-m:Kilogram",
+            "dfc-b:value": "1"
+        },
+        {
+            "@id": "_:b70",
+            "@type": "dfc-b:QuantitativeValue",
+            "dfc-b:hasUnit": "dfc-m:Kilogram",
+            "dfc-b:value": "1"
+        },
+        {
+            "@id": "_:b71",
+            "@type": "dfc-b:QuantitativeValue",
+            "dfc-b:hasUnit": "dfc-m:Kilogram",
+            "dfc-b:value": "1"
+        },
+        {
+            "@id": "_:b72",
+            "@type": "dfc-b:QuantitativeValue",
+            "dfc-b:hasUnit": "dfc-m:Kilogram",
+            "dfc-b:value": "1"
+        },
+        {
+            "@id": "http://www.elzeard.co/catalog/bpxla6lfrkb9fd",
+            "@type": "dfc-b:Catalog",
+            "dfc-b:lists": [
+                {
+                    "@id": "http://www.elzeard.co/catalogItem/02p0ot8e3rserp"
+                },
+                {
+                    "@id": "http://www.elzeard.co/catalogItem/0jbhpw56fbvqq1"
+                },
+                {
+                    "@id": "http://www.elzeard.co/catalogItem/23jkiefx6aaj89"
+                },
+                {
+                    "@id": "http://www.elzeard.co/catalogItem/23yq735kppxe9l"
+                },
+                {
+                    "@id": "http://www.elzeard.co/catalogItem/9drao081b20ar1"
+                },
+                {
+                    "@id": "http://www.elzeard.co/catalogItem/es54vf21w1ws9x"
+                },
+                {
+                    "@id": "http://www.elzeard.co/catalogItem/m8es191x3i1f2f"
+                },
+                {
+                    "@id": "http://www.elzeard.co/catalogItem/wc1jivu7s0ll06"
+                }
+            ],
+            "dfc-b:maintainedBy": {
+                "@id": "http://www.elzeard.co/enterprise/bpxla6lfrkb9fd"
+            }
+        },
+        {
+            "@id": "http://www.elzeard.co/catalogItem/02p0ot8e3rserp",
+            "@type": "dfc-b:CatalogItem",
+            "dfc-b:listedIn": {
+                "@id": "http://www.elzeard.co/catalog/bpxla6lfrkb9fd"
+            },
+            "dfc-b:references": "http://www.elzeard.co/suppliedProduct/02p0ot8e3rserp",
+            "dfc-b:stockLimitation": "45"
+        },
+        {
+            "@id": "http://www.elzeard.co/catalogItem/0jbhpw56fbvqq1",
+            "@type": "dfc-b:CatalogItem",
+            "dfc-b:listedIn": {
+                "@id": "http://www.elzeard.co/catalog/bpxla6lfrkb9fd"
+            },
+            "dfc-b:references": "http://www.elzeard.co/suppliedProduct/0jbhpw56fbvqq1",
+            "dfc-b:stockLimitation": "30"
+        },
+        {
+            "@id": "http://www.elzeard.co/catalogItem/23jkiefx6aaj89",
+            "@type": "dfc-b:CatalogItem",
+            "dfc-b:listedIn": {
+                "@id": "http://www.elzeard.co/catalog/bpxla6lfrkb9fd"
+            },
+            "dfc-b:references": "http://www.elzeard.co/suppliedProduct/23jkiefx6aaj89",
+            "dfc-b:stockLimitation": "50"
+        },
+        {
+            "@id": "http://www.elzeard.co/catalogItem/23yq735kppxe9l",
+            "@type": "dfc-b:CatalogItem",
+            "dfc-b:listedIn": {
+                "@id": "http://www.elzeard.co/catalog/bpxla6lfrkb9fd"
+            },
+            "dfc-b:references": "http://www.elzeard.co/suppliedProduct/23yq735kppxe9l",
+            "dfc-b:stockLimitation": "50"
+        },
+        {
+            "@id": "http://www.elzeard.co/catalogItem/9drao081b20ar1",
+            "@type": "dfc-b:CatalogItem",
+            "dfc-b:listedIn": {
+                "@id": "http://www.elzeard.co/catalog/bpxla6lfrkb9fd"
+            },
+            "dfc-b:references": "http://www.elzeard.co/suppliedProduct/9drao081b20ar1",
+            "dfc-b:stockLimitation": "70"
+        },
+        {
+            "@id": "http://www.elzeard.co/catalogItem/es54vf21w1ws9x",
+            "@type": "dfc-b:CatalogItem",
+            "dfc-b:listedIn": {
+                "@id": "http://www.elzeard.co/catalog/bpxla6lfrkb9fd"
+            },
+            "dfc-b:references": "http://www.elzeard.co/suppliedProduct/es54vf21w1ws9x",
+            "dfc-b:stockLimitation": "93"
+        },
+        {
+            "@id": "http://www.elzeard.co/catalogItem/m8es191x3i1f2f",
+            "@type": "dfc-b:CatalogItem",
+            "dfc-b:listedIn": {
+                "@id": "http://www.elzeard.co/catalog/bpxla6lfrkb9fd"
+            },
+            "dfc-b:references": "http://www.elzeard.co/suppliedProduct/m8es191x3i1f2f",
+            "dfc-b:stockLimitation": "30"
+        },
+        {
+            "@id": "http://www.elzeard.co/catalogItem/wc1jivu7s0ll06",
+            "@type": "dfc-b:CatalogItem",
+            "dfc-b:listedIn": {
+                "@id": "http://www.elzeard.co/catalog/bpxla6lfrkb9fd"
+            },
+            "dfc-b:references": "http://www.elzeard.co/suppliedProduct/wc1jivu7s0ll06",
+            "dfc-b:stockLimitation": "150"
+        },
+        {
+            "@id": "http://www.elzeard.co/enterprise/bpxla6lfrkb9fd",
+            "@type": "dfc-b:Enterprise",
+            "dfc-b:hasDescription": "Ferme DFC",
+            "dfc-b:maintains": {
+                "@id": "http://www.elzeard.co/catalog/bpxla6lfrkb9fd"
+            },
+            "dfc-b:manages": [
+                "http://www.elzeard.co/catalogItem/02p0ot8e3rserp",
+                "http://www.elzeard.co/catalogItem/0jbhpw56fbvqq1",
+                "http://www.elzeard.co/catalogItem/23jkiefx6aaj89",
+                "http://www.elzeard.co/catalogItem/23yq735kppxe9l",
+                "http://www.elzeard.co/catalogItem/9drao081b20ar1",
+                "http://www.elzeard.co/catalogItem/es54vf21w1ws9x",
+                "http://www.elzeard.co/catalogItem/m8es191x3i1f2f",
+                "http://www.elzeard.co/catalogItem/wc1jivu7s0ll06"
+            ],
+            "dfc-b:supplies": [
+                "http://www.elzeard.co/suppliedProduct/02p0ot8e3rserp",
+                "http://www.elzeard.co/suppliedProduct/0jbhpw56fbvqq1",
+                "http://www.elzeard.co/suppliedProduct/23jkiefx6aaj89",
+                "http://www.elzeard.co/suppliedProduct/23yq735kppxe9l",
+                "http://www.elzeard.co/suppliedProduct/9drao081b20ar1",
+                "http://www.elzeard.co/suppliedProduct/es54vf21w1ws9x",
+                "http://www.elzeard.co/suppliedProduct/m8es191x3i1f2f",
+                "http://www.elzeard.co/suppliedProduct/wc1jivu7s0ll06"
+            ]
+        },
+        {
+            "@id": "http://www.elzeard.co/suppliedProduct/02p0ot8e3rserp",
+            "@type": "dfc-b:SuppliedProduct",
+            "dfc-b:description": "Carotte diversification",
+            "dfc-b:hasQuantity": "_:b65",
+            "dfc-b:referencedBy": "http://www.elzeard.co/catalogItem/02p0ot8e3rserp",
+            "dfc-b:totalTheoreticalStock": "45"
+        },
+        {
+            "@id": "http://www.elzeard.co/suppliedProduct/0jbhpw56fbvqq1",
+            "@type": "dfc-b:SuppliedProduct",
+            "dfc-b:description": "Carotte diversification",
+            "dfc-b:hasQuantity": "_:b66",
+            "dfc-b:referencedBy": "http://www.elzeard.co/catalogItem/0jbhpw56fbvqq1",
+            "dfc-b:totalTheoreticalStock": "30"
+        },
+        {
+            "@id": "http://www.elzeard.co/suppliedProduct/23jkiefx6aaj89",
+            "@type": "dfc-b:SuppliedProduct",
+            "dfc-b:description": "Radis",
+            "dfc-b:hasQuantity": "_:b67",
+            "dfc-b:referencedBy": "http://www.elzeard.co/catalogItem/23jkiefx6aaj89",
+            "dfc-b:totalTheoreticalStock": "50"
+        },
+        {
+            "@id": "http://www.elzeard.co/suppliedProduct/23yq735kppxe9l",
+            "@type": "dfc-b:SuppliedProduct",
+            "dfc-b:description": "Ail rose",
+            "dfc-b:hasQuantity": "_:b68",
+            "dfc-b:referencedBy": "http://www.elzeard.co/catalogItem/23yq735kppxe9l",
+            "dfc-b:totalTheoreticalStock": "50"
+        },
+        {
+            "@id": "http://www.elzeard.co/suppliedProduct/9drao081b20ar1",
+            "@type": "dfc-b:SuppliedProduct",
+            "dfc-b:description": "Tomate",
+            "dfc-b:hasQuantity": "_:b69",
+            "dfc-b:referencedBy": "http://www.elzeard.co/catalogItem/9drao081b20ar1",
+            "dfc-b:totalTheoreticalStock": "70"
+        },
+        {
+            "@id": "http://www.elzeard.co/suppliedProduct/es54vf21w1ws9x",
+            "@type": "dfc-b:SuppliedProduct",
+            "dfc-b:description": "Tomate",
+            "dfc-b:hasQuantity": "_:b70",
+            "dfc-b:referencedBy": "http://www.elzeard.co/catalogItem/es54vf21w1ws9x",
+            "dfc-b:totalTheoreticalStock": "93"
+        },
+        {
+            "@id": "http://www.elzeard.co/suppliedProduct/m8es191x3i1f2f",
+            "@type": "dfc-b:SuppliedProduct",
+            "dfc-b:description": "Tomate",
+            "dfc-b:hasQuantity": "_:b71",
+            "dfc-b:referencedBy": "http://www.elzeard.co/catalogItem/m8es191x3i1f2f",
+            "dfc-b:totalTheoreticalStock": "30"
+        },
+        {
+            "@id": "http://www.elzeard.co/suppliedProduct/wc1jivu7s0ll06",
+            "@type": "dfc-b:SuppliedProduct",
+            "dfc-b:description": "Pomme de terre chair ferme",
+            "dfc-b:hasQuantity": "_:b72",
+            "dfc-b:referencedBy": "http://www.elzeard.co/catalogItem/wc1jivu7s0ll06",
+            "dfc-b:totalTheoreticalStock": "150"
+        }
+    ]
+}
